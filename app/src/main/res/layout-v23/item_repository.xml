@@ -38,6 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/indentation_16"
+                    android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.repositoryUrl)}"
                     app:bindTextWithCheckContent="@{bindingModel.repositoryName}" />
 
             <!--<TextView-->
@@ -102,7 +103,7 @@
                     <!--android:layout_height="wrap_content"-->
                     <!--android:layout_weight="1"-->
                     <!--android:foreground="?android:attr/selectableItemBackground"-->
-                    <!--android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.repositoryUrl)}"-->
+                    <!---->
                     <!--android:padding="@dimen/indentation_6"-->
                     <!--android:text="@string/txt_view_repository"-->
                     <!--android:textAlignment="center" />-->
