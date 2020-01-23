@@ -40,90 +40,90 @@
                     android:layout_marginBottom="@dimen/indentation_16"
                     app:bindTextWithCheckContent="@{bindingModel.repositoryName}" />
 
-            <TextView
-                    android:id="@+id/tvRepoId"
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_label_24px"
-                    android:drawablePadding="@dimen/indentation_4"
-                    app:textSpan="@{bindingModel.repositoryId}"/>
+            <!--<TextView-->
+                    <!--android:id="@+id/tvRepoId"-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawableStart="@drawable/ic_label_24px"-->
+                    <!--android:drawablePadding="@dimen/indentation_4"-->
+                    <!--app:textSpan="@{bindingModel.repositoryId}"/>-->
 
-            <TextView
-                    android:id="@+id/tvRepoCreatedAtDate"
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/indentation_8"
-                    android:drawableStart="@drawable/ic_date_range_24px"
-                    android:drawablePadding="@dimen/indentation_4"
-                    app:dateSpan="@{bindingModel.createdAtDate}"
-                    app:timeSpan="@{bindingModel.createdAtTime}" />
+            <!--<TextView-->
+                    <!--android:id="@+id/tvRepoCreatedAtDate"-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/indentation_8"-->
+                    <!--android:drawableStart="@drawable/ic_date_range_24px"-->
+                    <!--android:drawablePadding="@dimen/indentation_4"-->
+                    <!--app:dateSpan="@{bindingModel.createdAtDate}"-->
+                    <!--app:timeSpan="@{bindingModel.createdAtTime}" />-->
 
-            <TextView
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/indentation_8"
-                    android:drawableStart="@drawable/ic_code_24px"
-                    android:drawablePadding="@dimen/indentation_4"
-                    app:textSpan="@{bindingModel.language}"/>
+            <!--<TextView-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/indentation_8"-->
+                    <!--android:drawableStart="@drawable/ic_code_24px"-->
+                    <!--android:drawablePadding="@dimen/indentation_4"-->
+                    <!--app:textSpan="@{bindingModel.language}"/>-->
 
-            <TextView
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/indentation_6"
-                    android:layout_marginTop="@dimen/indentation_8"
-                    android:drawableStart="@drawable/ic_git_branch"
-                    android:drawablePadding="@dimen/indentation_7"
-                    app:textSpan="@{bindingModel.defaultBranch}" />
+            <!--<TextView-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="@dimen/indentation_6"-->
+                    <!--android:layout_marginTop="@dimen/indentation_8"-->
+                    <!--android:drawableStart="@drawable/ic_git_branch"-->
+                    <!--android:drawablePadding="@dimen/indentation_7"-->
+                    <!--app:textSpan="@{bindingModel.defaultBranch}" />-->
 
-            <TextView
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/indentation_8"
-                    android:drawableStart="@drawable/ic_description_24px"
-                    android:drawablePadding="@dimen/indentation_4"
-                    app:bindTextWithCheckContent="@{bindingModel.repositoryDescription}" />
+            <!--<TextView-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/indentation_8"-->
+                    <!--android:drawableStart="@drawable/ic_description_24px"-->
+                    <!--android:drawablePadding="@dimen/indentation_4"-->
+                    <!--app:bindTextWithCheckContent="@{bindingModel.repositoryDescription}" />-->
         </LinearLayout>
 
-        <include layout="@layout/divider_horizontal" />
+        <!--<include layout="@layout/divider_horizontal" />-->
 
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+        <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
 
-            <TextView
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.repositoryUrl)}"
-                    android:padding="@dimen/indentation_6"
-                    android:text="@string/txt_view_repository"
-                    android:textAlignment="center" />
+            <!--<TextView-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                    <!--android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.repositoryUrl)}"-->
+                    <!--android:padding="@dimen/indentation_6"-->
+                    <!--android:text="@string/txt_view_repository"-->
+                    <!--android:textAlignment="center" />-->
 
-            <View
-                    android:layout_width="1dp"
-                    android:layout_height="fill_parent"
-                    android:background="@color/colorBlack" />
+            <!--<View-->
+                    <!--android:layout_width="1dp"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:background="@color/colorBlack" />-->
 
-            <TextView
-                    style="@style/TextStyle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.commitsUrl)}"
-                    android:padding="@dimen/indentation_6"
-                    android:text="@string/txt_view_commits"
-                    android:textAlignment="center" />
+            <!--<TextView-->
+                    <!--style="@style/TextStyle"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:foreground="?android:attr/selectableItemBackground"-->
+                    <!--android:onClick="@{(view)-> bindingModel.onRepositoryClicked(bindingModel.commitsUrl)}"-->
+                    <!--android:padding="@dimen/indentation_6"-->
+                    <!--android:text="@string/txt_view_commits"-->
+                    <!--android:textAlignment="center" />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
         <include layout="@layout/divider_horizontal" />
 

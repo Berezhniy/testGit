@@ -1,11 +1,9 @@
 <resources>
     <string name="app_name">Oolla test</string>
-
     <string name="empty_view_head">There is nothing here</string>
     <string name="empty_view_bottom">You may want to enter another username</string>
     <string name="common_error_msg_head">If you want to try again later</string>
     <string name="common_error_msg_bottom">Something went wrong</string>
-
     <string name="error_no_browser_found">No browser found - please install a valid web browser.</string>
     <string name="hint_enter_user_name">Enter user name</string>
     <string name="btn_search_for_repositories">Search for repositories</string>
